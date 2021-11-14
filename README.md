@@ -40,9 +40,9 @@ The app provides a graphical interface for loading and baselineing data series a
 * `smoothing`: Amount of spline smoothing (0: no smoothing, >0: increased smoothing).
 * `minLevelSep`: Minimum allowable separation in y between ientified levels. If set to 0, a default value based on sigmaY is used.
 * `snakeLevelRefinement`: Boolean indicating whether or not to refine the identified levels using active contour snakes.
-* `maxSnakeIter`: Maximum number of snake refinement iterations. Default value of 50 nearly always works well.
-* `alpha`: Degree of constraint on snake elasticity (1st derivative) (0: no constraint, >0: increased constraint ==> less wiggly levels). Default value of 1 seems to often works well.
-* `beta`: Degree of constraint on snake curvature (2nd derivative) (0: no constraint, >0: increased constraint ==> less wiggly levels). Default value of 1 seems to often works well.
+* `maxSnakeIter`: Maximum number of snake refinement iterations. Default value of 50 seems to nearly always work well.
+* `alpha`: Degree of constraint on snake elasticity (1st derivative) (0: no constraint, >0: increased constraint ==> less wiggly levels). Default value of 1 seems to often work well.
+* `beta`: Degree of constraint on snake curvature (2nd derivative) (0: no constraint, >0: increased constraint ==> less wiggly levels). Default value of 1 seems to often work well.
 * `gamma`: Scale parameter for updating snakes on each iteration. Default value of 1 seems to nearly always work well.
 
 ### Hints
